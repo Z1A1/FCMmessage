@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.fcmmessage.ChattingActivity">
+
+    <LinearLayout
+        android:layout_width="381dp"
+        android:layout_height="57dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="453dp"
+        tools:ignore="MissingConstraints,UselessLeaf">
+
+        <EditText
+            android:id="@+id/dt"
+            android:layout_width="301dp"
+            android:layout_height="match_parent"
+            android:hint="Message here"
+            tools:ignore="HardcodedText,LabelFor,TextFields" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="send"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/Chattinglist"
+        android:layout_width="0dp"
+        android:layout_height="451dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="1dp" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FCMmessage</string>
+    <string name="textview">TextView</string>
+    <string name="john_doee">johndoe</string>
+</resources>
